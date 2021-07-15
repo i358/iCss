@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Bu kullanım yeni sürümde desteklenmemektedir.-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../iCss/src/source.css">
+    <style>
+        @import url(../iCss/src/colors/themes/dark/bridge/source.css);
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+        * {
+            font-family: 'Rubik'
+        }
+    </style>
+    <title>iCss Test</title>
+</head>
+
+<body class="bg-dark text-white h-screen basic-layout">
+    <div class="bg-dark-600 flex align-center justify-center">
+        <h1 class="text-white-800">iCss: V1.3.0</h1>
+    </div>
+    <div id="container" class="p-1 pl-2">
+
+        <p class="bg-dark-800 p-2 rounded-5 text-white-800">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil cumque quasi a ut, consectetur minima cum iure corporis quidem suscipit error architecto maxime impedit dicta ipsa laudantium magni harum omnis!</p>
+        <div class="container grid-gap-3">
+            <div class="row">
+                <div class="flex justify-center align-center">
+                    <input type="text" class="col-10 text-white-800 bg-dark-800 p-1 mr-1 rounded-3" placeholder="A Text Box" />
+                <input type="password" class="col-10 text-white-800 bg-dark-800 p-1 rounded-3" placeholder="A Password Box" />
+                </div>
+            </div>
+            <div class="flex justify-center align-center">
+                <textarea id="textarea" type="text" class="w-full text-white-800 bg-dark-800 p-1 rounded-3" placeholder="A textarea" style="resize:none;"></textarea>
+            </div>
+        </div>
+        <div class="container center w-max grid-gap-3 bg-dark-800 rounded-3 p-1 mt-3">
+            <button class="col bg-dark-400 hovered-dark-200 text-white-800 p-1 rounded-2">Switch 1</button>
+            <button class="col bg-dark-400 hovered-dark-200 text-white-800 p-1 rounded-2">Switch 2</button>
+        </div>
+        <div class="center mt-2 container grid-gap-2 p-1 rounded-3 w-max">
+
+            <div class="col bg-dark-800 p-1 rounded-2 text-white-800">
+                bg-dark-800
+            </div>
+            <div class="col bg-dark-600 p-1 rounded-2 text-white-800">
+                bg-dark-600
+            </div>
+            <div class="col bg-dark-400 p-1 rounded-2 text-white-800">
+                bg-dark-400
+            </div>
+            <div class="col bg-dark-200 p-1 rounded-2 text-white-800">
+                bg-dark-200
+            </div>
+        </div>
+    </div>
+    <div class="grid place-center text-white-400">
+        <p> 2021 © Designed by <b>358</b></p>
+    </div>
+</body>
+
+</html>
+<script>
+    var textarea = document.getElementById("textarea");
+
+    textarea.oninput = function() {
+        textarea.style.height = "";
+        /* textarea.style.height = Math.min(textarea.scrollHeight, 300) + "px"; */
+        textarea.style.height = textarea.scrollHeight + "px"
+    };
+</script>

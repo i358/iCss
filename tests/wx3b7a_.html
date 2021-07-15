@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../iCss/src/source.css">
+    <style>
+        @import url(../iCss/src/colors/themes/dark/bridge/source.css);
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+        * {
+            font-family: 'Rubik'dedim c
+        }
+    </style>
+    <title>iCss Test</title>
+
+</head>
+<body class="bg-dark text-white h-screen">
+    <div class="container bg-dark-800 x-space-2">
+        <div class="row w-max y-space-1">
+            <div class="col bg-dark-200">saaaaaaaaaaa</div>
+            <div class="col bg-dark-400">as</div>
+            
+            <div class="col bg-dark-400">as</div>
+            
+            <div class="col bg-dark-400">as</div>
+            
+            <div class="col bg-dark-400">as</div>
+            <div class="col bg-dark-400">as</div>
+            <div class="col bg-dark-400">as</div>
+            <div class="col bg-dark-400">as</div>
+            <div class="col bg-dark-400">as</div>
+            <div class="col bg-dark-400">as</div>
+        </div>
+        <div class="row">
+            <div class="col bg-dark-200">saaaaaaaaaaa</div>
+            <div class="col bg-dark-400">as</div>
+        </div>
+    </div>
+</body>
+<script>
+    var textarea = document.getElementById("textarea");
+
+    textarea.oninput = function() {
+        textarea.style.height = "";
+        /* textarea.style.height = Math.min(textarea.scrollHeight, 300) + "px"; */
+        textarea.style.height = textarea.scrollHeight + "px"
+    };
+</script>
+</html>
