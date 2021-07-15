@@ -1,0 +1,8 @@
+.basic-layout{
+    display:grid;
+    grid-template:60px auto 65px / auto;
+    grid-gap:15px;
+}
+@media screen and (max-width:800px) {
+    .basic-layout{grid-gap:5px;grid-template:60px auto 65px / auto; font-size:1.1rem;}
+}  

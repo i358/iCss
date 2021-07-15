@@ -1,0 +1,19 @@
+.basic-layout {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 60px auto 65px;
+  -ms-grid-columns: auto;
+      grid-template: 60px auto 65px / auto;
+  grid-gap: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .basic-layout {
+    grid-gap: 5px;
+    -ms-grid-rows: 60px auto 65px;
+    -ms-grid-columns: auto;
+        grid-template: 60px auto 65px / auto;
+    font-size: 1.1rem;
+  }
+}
+/*# sourceMappingURL=basic.css.map */
