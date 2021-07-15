@@ -1,0 +1,85 @@
+* {
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+}
+
+.bg-dark {
+  background: #121417;
+}
+
+.bg-dark-200 {
+  background: #383E46;
+}
+
+.bg-dark-400 {
+  background: #282D33;
+}
+
+.bg-dark-600 {
+  background: #22272C;
+}
+
+.bg-dark-800 {
+  background: #1E2227;
+}
+
+.bg-white {
+  background: white;
+}
+
+.bg-white-200 {
+  background: #a3a2a9;
+}
+
+.bg-white-400 {
+  background: #b5b4bc;
+}
+
+.bg-white-600 {
+  background: #c1bfcd;
+}
+
+.bg-white-800 {
+  background: #dddce8;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-white-200 {
+  color: #a3a2a9;
+}
+
+.text-white-400 {
+  color: #b5b4bc;
+}
+
+.text-white-600 {
+  color: #c1bfcd;
+}
+
+.text-white-800 {
+  color: #dddce8;
+}
+
+.hovered-dark-200:hover {
+  background: #383E46;
+}
+
+.hovered-dark-400:hover {
+  background: #282D33;
+}
+
+.hovered-dark-600:hover {
+  background: #22272C;
+}
+
+.hovered-dark-800:hover {
+  background: #1E2227;
+}
+
+.hovered-dark:hover {
+  background: #121417;
+}
+/*# sourceMappingURL=source.css.map */

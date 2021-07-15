@@ -1,0 +1,31 @@
+$dark:#121417;
+$dark-800:#1E2227;
+$dark-600:#22272C;
+$dark-400:#282D33;
+$dark-200:#383E46;
+$white-200:rgb(163, 162, 169);
+$white-400:rgb(181, 180, 188);
+$white-600:rgb(193, 191, 205);
+$white-800:rgb(221, 220, 232);
+$white:white;
+*{transition:background 0.2s;}
+.bg-dark{background:$dark}
+.bg-dark-200{background:$dark-200}
+.bg-dark-400{background:$dark-400}
+.bg-dark-600{background:$dark-600}
+.bg-dark-800{background:$dark-800}  
+.bg-white{background:$white}
+.bg-white-200{background:$white-200}
+.bg-white-400{background:$white-400}
+.bg-white-600{background:$white-600}
+.bg-white-800{background:$white-800}
+.text-white{color:$white}
+.text-white-200{color:$white-200}
+.text-white-400{color:$white-400}
+.text-white-600{color:$white-600}
+.text-white-800{color:$white-800}
+.hovered-dark-200:hover{background:$dark-200}
+.hovered-dark-400:hover{background:$dark-400}
+.hovered-dark-600:hover{background:$dark-600}
+.hovered-dark-800:hover{background:$dark-800}
+.hovered-dark:hover{background:$dark}

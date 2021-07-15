@@ -1,0 +1,13 @@
+.align-center{align-items:center}
+.align-start{align-items:start}
+.align-end{align-items:end}
+.justify-start{justify-content:start}
+.justify-center{justify-content:center}
+.justify-end{justify-content:end}
+.place-start{place-items:start}
+.place-center{place-items:center}
+.place-end{place-items:end}
+.text-left{text-align:left}
+.text-center{text-align:center}
+.text-right{text-align:right}
+.center{margin-left:auto;margin-right:auto;}
